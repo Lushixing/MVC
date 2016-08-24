@@ -1,0 +1,17 @@
+{
+	"errno": 0,
+	"data": {
+		"normalEmail": [
+			"@163.com",
+			"@126.com",
+			"@sohu.com",
+			"@sina.com"
+		],
+		"specialEmail": [
+			"百度登录",
+			"支付宝",
+			"QQ邮箱",
+			"新浪微博"
+		]
+	}
+}

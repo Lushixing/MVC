@@ -1,0 +1,568 @@
+body{
+	width:100%;
+	height:100%;
+	/*overflow: hidden;*/
+	background:#FAFAFA;
+}
+.header {
+	height: 60px;
+	border: 1px solid #eff0f0;
+	position: relative;
+}
+.header .container {
+	width: 1190px;
+	margin: 0 auto;
+}
+.header .header-left {
+	float: left;
+}
+.header .header-right {
+	position: relative;
+	float: right;
+}
+.header span {
+	display: inline-block;
+	vertical-align: middle;
+	height: 60px;
+	line-height: 60px;
+	font-size: 12px;
+	color: #999;
+	cursor: pointer;
+}
+
+.header .date:hover b,
+.header .star:hover b,
+.header .header-right span:hover {
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	background: #f7f7f7;
+}
+.header .weather,
+.header .date,
+.header .star,
+.header .header-right span {
+	position: relative;
+	border: 1px solid transparent;
+}
+.header .weather a,
+.header span b {
+	/** 注意，不能设置宽度，要设置高度，边框和内边距 **/
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+	position: relative;
+	z-index: 100;
+	padding: 0 10px;
+	height: 100%;
+	display: block;
+	font-weight: normal;
+}
+.header .weather:hover{
+	background:#F7F7F7;
+}
+.header .weather span,
+.header .weather img {
+	padding: 0 5px;
+	position: relative;
+	z-index: 100;
+}
+.header .set-home {
+	padding: 2px 5px;
+	background-color: #07ac72;
+	color: white;
+	font-size: 12px;
+	height: auto;
+	line-height: 16px;
+}
+.header img {
+	vertical-align: middle;
+}
+.header ul {
+	float: right;
+	height: 60px;
+	overflow: hidden;
+}
+.header .city i {
+	background: url(../../image/icons.png) -52px -97px;
+	padding: 3px 5px;
+	display: inline-block;
+	margin-left: 2px;
+}
+.header .header-right i {
+	padding: 10px;
+	display: inline-block;
+	background: url(../../image/icons.png);
+	vertical-align: middle;
+	margin-right: 2px;
+}
+.header .user b {
+	background-position: -22px -111px;
+}
+.header .email b {
+	background-position: -90px -110px;
+}
+.header .browser b {
+	background-position: -155px -110px;
+}
+.header .skin b {
+	background-position: -237px -110px;
+}
+
+.header-right span b {
+	padding-left: 40px;
+	background: url(../../img/icons.png);
+
+}
+
+
+.header .email.open b {
+	background-color: #f7f7f7;
+}
+.header .email.open {
+	border-left: 1px solid #d9d9d9;
+	border-right: 1px solid #d9d9d9;
+}
+.email-layer {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding: 20px;
+	border: 1px solid #d9d9d9;
+	box-shadow: 2px 2px 0 #ccc;
+	background: #f7f7f7;
+	margin-top: -1px;
+	margin-left: -1px;
+	width: 228px;
+	display: none;
+	z-index: 555;
+}
+.email-layer.open {
+	display: block;
+}
+.email-layer input {
+	width: 115px;
+	margin-right: 5px;
+	height: 20px;
+	line-height: 20px;
+}
+.email-layer .container > div {
+	height: 26px;
+	line-height: 26px;
+	margin-bottom: 5px;
+}
+.header .email-layer span {
+	height: 26px;
+	line-height: 26px;
+}
+.email-layer #email-checkbox {
+	width: 17px;
+	height: 14px;
+    vertical-align: middle;
+}
+.email-layer span.choose-email {
+	border: 1px solid #ccc;
+	background: #fff;
+	text-align: left;
+	position: relative;
+	width: 106px;
+	padding-left: 5px;
+	height: 20px;
+	line-height: 20px;
+}
+.email-layer span.choose-email:hover {
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.email-layer .choose-email:after {
+	position: absolute;
+	top: 50%;
+	right: 5px;
+	content: "";
+	border-top: 4px solid #000;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-bottom: 4px solid transparent;
+
+}
+.email-layer ul {
+	position: absolute;
+    top: 45px;
+    left: 144px;
+    width: 113px;
+    border: 1px solid #ccc;
+    background: white;
+    height: auto;
+    z-index: 10;
+    display: none;
+}
+.email-layer ul.open {
+	display: block;
+}
+.email-layer ul li {
+	height: 24px;
+	padding-left: 5px;
+}
+.email-layer ul li:hover {
+	background: #efefef;
+}
+.email-layer li.not-email {
+	background: #efefef
+}
+
+
+/*************  skin  ****************/
+html, body {
+	height: 100%;
+}
+.skin {
+	display: none;
+}
+.skin .container {
+	width: 1140px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+.skin .skin-header {
+	background: #f8f8f8;
+	height: 30px;
+}
+.skin .skin-header span {
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 20px;
+	cursor: pointer;
+}
+.skin .skin-header .tabs {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	background: #dfe1e2;
+	color: #999;
+}
+.skin .skin-header .tabs:hover {
+	background: #656565;
+	color: #fff;
+}
+.skin .skin-header .no-use-btn {
+	color: #35a738;
+}
+.skin .skin-header .save-btn {
+	color: #fff;
+	background: #34a637 url(../../img/index_icon.png) no-repeat -263px -88px;
+	padding-left: 50px;
+}
+.skin .skin-header .cancel-btn {
+	color: #999;
+}
+.skin .skin-header .cancel-btn:hover {
+	color: red;
+}
+.skin .skin-content {
+	background: #dfe1e2;
+}
+.skin .skin-content ul {
+	padding: 20px 0;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+}
+.skin .skin-content ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.skin .skin-content li {
+	position: relative;
+	float: left;
+	width: 180px;
+	margin: 10px 5px;
+	text-align: center;
+	cursor: pointer;
+}
+.skin .skin-content i {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 180px;
+	height: 98px;
+	background: #000;
+	opacity: .2;
+}
+.skin .skin-content li:hover i {
+	display: block;
+}
+.skin .skin-content p {
+	height: 28px;
+	line-height: 28px;
+	color: #666;
+}
+.skin .skin-content img {
+	width: 180px;
+	height: 98px;
+}
+
+.login{
+	position: absolute;
+	left:0px;
+	top: 0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0 , 0.4);
+	z-index: 999;
+}
+.login_in{
+	position: absolute;
+	left:50%;
+	top: 50%;
+	width:532px;
+	height:448px;
+	margin-left: -266px;
+	margin-top: -224px;
+	background:#fff;
+	border-radius: 2px;
+}
+.login .login_hd{
+	width:512px;
+	height:47px;
+	line-height: 47px;
+	background:#F7F7F7;
+	padding-left: 20px;
+	position: relative;
+}
+.login .login_hd h2{
+	float: left;
+	color:#666666;
+	font-size: 16px;
+	padding-left: 30px;
+	position: relative;
+}
+.login .login_hd h2::before{
+	content: "";
+	position: absolute;
+	left:0px;
+	top: 6px;
+	width:24px;
+	height:32px;
+	background: url(../../img/baidu_logo.png) no-repeat;
+}
+.login .login_hd .close {
+	position: absolute;
+	top: 50%;
+	right:15px;
+	margin-top: -8px;
+	width:16px;
+	height:16px;
+	background:url(../../img/pass_login_icons.png) no-repeat -56px -48px;
+}
+.login .login_hd .close:hover{
+	background-position: -72px -48px;
+}
+.login .login_bd{
+	width:512px;
+	padding-left: 20px;
+}
+.login .login_bd .login_bd_left{
+	float: left;
+	width:198px;
+	margin-right: 20px;
+}
+.login .login_bd .login_bd_left h3{
+	font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+    padding-left: 0;
+    font-weight: bold;
+}
+.login .login_bd .login_bd_left img{
+	display: block;
+	padding: 5px;
+    border: 1px solid #ccc;
+    width: 123px;
+    height: 123px;
+    margin-left: 31px;
+}
+.login .login_bd .login_bd_left p{
+	color: #666;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+    background: #f1f1f1;
+    display: inline-block;
+    padding: 3px 5px;
+    border-radius: 2px;
+    margin: 20px 0 0 0;
+    margin-left: 18px;
+}
+.login .login_bd .login_bd_left p a{
+	color:#1B66C7;
+	text-decoration: none;
+}
+.login .login_bd .login_bd_left p a:hover{
+	text-decoration: underline;
+}
+
+.login .login_bd .login_bd_right{
+	float: left;
+	width:250px;
+	height:246px;
+	padding-top: 24px;
+}
+.login_bd_right h4{
+	height:19px;
+	width:250px;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 10px;
+}
+.login_bd_right h4 a{
+	float: right;
+	color:#666;
+	text-decoration: none;
+	position: relative;
+	height:15px;
+	padding-left: 15px;
+}
+.login_bd_right h4 a:hover{
+	text-decoration: underline;
+	color:#1B66C7;
+}
+.login_bd_right h4 a::before{
+	content:"";
+	position: absolute;
+	left:0px;
+	top: 0;
+	height:15px;
+	width:9px;
+	background: url(../../img/smsSwitchPhone.png) no-repeat;
+}
+.login_bd_right .ipt div{
+	width:250px;
+	height:42px;
+	margin-bottom: 15px;
+	position: relative;
+}
+.login_bd_right .ipt input{
+	width:210px;
+	height:42px;
+	border-radius: 2px;
+	border: 1px solid #DDDDDD;	
+	font-size: 16px;
+	padding-left: 38px;
+	outline: none;
+}
+.login_bd_right .ipt i{
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	width:24px;
+	height:24px;
+	margin-top: -12px;
+	background: url(../../img/input_icons.png) no-repeat 0 -68px;
+	background-size: 24px 400px;
+}
+.login_bd_right .ipt input.change{
+	border: 1px solid #408AED;
+}
+.login_bd_right .ipt .i{
+	background: url(../../img/input_icons.png) no-repeat 0 -147px;
+	background-size: 24px 400px;
+}
+.login_bd_right .ipt .blue01{
+	background: url(../../img/input_icons.png) no-repeat 0 -108px;
+	background-size: 24px 400px;
+}
+.login_bd_right .ipt .blue02{
+	background: url(../../img/input_icons.png) no-repeat 0 -187px;
+	background-size: 24px 400px;
+}
+.login_bd_right .auto{
+	width:250px;
+	height:15px;
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.login_bd_right .auto div{
+	float: left;
+	position: relative;
+}
+.login_bd_right .auto input{
+	width:13px;
+	height:13px;
+	position: absolute;
+	top: 1px;
+}
+
+.login_bd_right .auto label{
+	height:15px;
+	margin-left: 16px;
+}
+.login_bd_right .auto a{
+	float: right;
+	color:#1B66C7;
+	font-size: 12px;
+	text-decoration: none;
+}
+.login_bd_right .auto a:hover{
+	text-decoration: underline;
+}
+.login_bd_right .btn{
+	
+	width:250px;
+	height:48px;
+	border-radius: 4px;
+	background:#408AED;
+	line-height: 48px;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.login_bd_right .btn a{
+	display: block;
+	width:250px;
+	height:48px;
+	font-size: 16px;
+	color:#fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.login_bd_right .reg{
+	width:250px;
+	height:50px;
+}
+.login_bd_right .reg a{
+	float: right;
+	font-size: 12px;
+	text-decoration: none;
+	color:#1B66C7;
+}
+.login_bd_right .reg a:hover{
+	text-decoration: underline;
+}
+.login_bd_right .other{
+	width:270px;
+	height:74px;
+	border-top: 1px solid #EEEEEE;
+	padding-top: 15px;
+	font-size: 12px;
+
+}
+.login_bd_right .other p{
+	height:18px;
+	color:#666666;
+}
+.login_bd_right .other div{
+	height:30px;
+	padding-top: 10px;
+}
+.login_bd_right .other div a{
+	display: block;
+	float: left;
+	width:24px;
+	height:24px;
+	background:url(../../img/pass_login_icons.png) no-repeat -88px 0;
+	margin-right: 16px;
+}
+.login_bd_right .other div .a01{
+	background:url(../../img/pass_login_icons.png) no-repeat -64px 0;
+}

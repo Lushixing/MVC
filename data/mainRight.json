@@ -1,0 +1,429 @@
+{
+    "errno" : 0,
+    "data" : {
+        "topNav" : [
+            {
+                "word" : "百度",
+                "word01" : "贴吧",
+                "src" : "https://www.baidu.com/?tn=sitehao123_15",
+                "src01" : "https://www.baidu.com/s?word=百度贴吧&tn=sitehao123_16"
+            },
+            {
+                "word" : "新浪",
+                "word01" : "微博",
+                "src" : "http://www.sina.com.cn/",
+                "src01" : "https://passport.weibo.com/visitor/visitor?entry=miniblog&a=enter&url=http%3A%2F%2Fweibo.com%2F&domain=.weibo.com&sudaref=https%3A%2F%2Fwww.hao123.com%2Flink%2Fhttps%2F%3Fkey%3Dhttp%253A%252F%252Fweibo.com%252F%26%26c%3D496D9333397A47827515DEFADD5185ED&ua=php-sso_sdk_client-0.6.23&_rand=1467212943.5361"
+            },
+            {
+                "word" : "搜狐",
+                "word01" : "视频",
+                "src" : "http://www.sohu.com/",
+                "src01" : "http://tv.sohu.com/?txid=658bdd0690e7730d6b360a936c4e3234"
+            },
+            {
+                "word" : "腾  讯",
+                "word01" : "",
+                "src" : "http://www.qq.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "网  易",
+                "word01" : "",
+                "src" : "http://www.163.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "优 酷 网",
+                "word01" : "",
+                "src" : "http://www.youku.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "天  猫",
+                "word01" : "",
+                "src" : "https://www.tmall.com/?ali_trackid=2:mm_26632322_6858406_23810104:1467213098_2k1_799189081",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "凤 凰 网",
+                "word01" : "",
+                "src" : "http://www.ifeng.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "淘 宝 网",
+                "word01" : "",
+                "src" : "https://www.taobao.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "免费游戏",
+                "word01" : "",
+                "src" : "https://game.hao123.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "4399游戏",
+                "word01" : "",
+                "src" : "http://www.4399.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "体育",
+                "word01" : "欧洲杯",
+                "src" : "http://www.hao123.com/sports",
+                "src01" : "http://www.hao123.com/euro2016"
+            },
+            {
+                "word" : "京东商城",
+                "word01" : "",
+                "src" : "http://www.jd.com/?cu=true&utm_source=www.hao123.com&utm_medium=tuiguang&utm_campaign=t_1000003625_hao123mz&utm_term=2d0a5fd51fe743228ac06d37cbe84195",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "聚 划 算",
+                "word01" : "",
+                "src" : "https://ju.taobao.com/?ali_trackid=2:mm_43125636_4246598_25832396:1467213320_251_1642877307",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "今日特价",
+                "word01" : "",
+                "src" : "http://tejia.hao123.com/?tn=mz",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "hao123影视",
+                "word01" : "",
+                "src" : "http://v.hao123.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "汽车之家",
+                "word01" : "",
+                "src" : "http://www.autohome.com.cn/beijing/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "彩票开奖",
+                "word01" : "",
+                "src" : "http://caipiao.hao123.com/",
+                "src01" : "javascript:;"
+            }
+        ] ,
+        "bottomNav" : [
+            {
+                "word" : "东方财富",
+                "word01" : "理财",
+                "src" : "http://www.eastmoney.com/",
+                "src01" : "http://www.hao123.com/licai"
+            },
+            {
+                "word" : "58 同 城",
+                "word01" : "",
+                "src" : "http://bj.58.com/?utm_source=market&spm=b-31580022738699-me-f-862.mingzhan",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "搜 房 网",
+                "word01" : "",
+                "src" : "http://www.fang.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "携程旅游网",
+                "word01" : "",
+                "src" : "http://www.ctrip.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "百度地图",
+                "word01" : "",
+                "src" : "http://map.baidu.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "12306",
+                "word01" : "旅游",
+                "src" : "http://www.12306.cn/mormhweb/",
+                "src01" : "http://go.hao123.com/?tn=mz"
+            },
+            {
+                "word" : "聚美优品",
+                "word01" : "",
+                "src" : "http://bj.jumei.com/?referer=hao123_mz",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "赶 集 网",
+                "word01" : "",
+                "src" : "http://www.ganji.com/?ca_s=tg_hao123&ca_n=mingzhan",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "易 车 网",
+                "word01" : "",
+                "src" : "http://beijing.bitauto.com/?referrer=https://www.hao123.com/link/https/?key=http%3A%2F%2Fwww.bitauto.com%2F&&c=496D9333397A47827515DEFADD5185ED",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "去哪儿网",
+                "word01" : "",
+                "src" : "http://www.qunar.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "工商银行",
+                "word01" : "",
+                "src" : "http://www.icbc.com.cn/icbc/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "天涯社区",
+                "word01" : "",
+                "src" : "http://www.tianya.cn/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "唯 品 会",
+                "word01" : "",
+                "src" : "http://www.hao123.com/link/v2/?key=aHR0cDovL24udmlwLmNvbS82RkI3SmYwMg%3D%3D",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "同程旅游网",
+                "word01" : "",
+                "src" : "http://www.ly.com/?refid=52600394&qdid=48061|1|52600394|9ced5a",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "途牛旅游网",
+                "word01" : "",
+                "src" : "http://www.tuniu.com/?p=16268&cmpid=mkt_03034401&utm_campaign=daohang&utm_source=hao123.com&utm_medium=display",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "微信网页版",
+                "word01" : "",
+                "src" : "https://wx.qq.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "太平洋汽车",
+                "word01" : "",
+                "src" : "http://www.pcauto.com.cn/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "斗 鱼 TV",
+                "word01" : "",
+                "src" : "http://www.douyu.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "hao 到家",
+                "word01" : "",
+                "src" : "http://life.hao123.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "直 播 吧",
+                "word01" : "",
+                "src" : "http://www.zhibo8.cc/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "中华英才网",
+                "word01" : "",
+                "src" : "http://www.chinahr.com/beijing/?utm_source=market&spm=b-32948702282246-pe-f-803.pc_dh_hao123_mz",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "在线学习",
+                "word01" : "",
+                "src" : "http://www.hao123.com/xuexi",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "萌主页",
+                "word01" : "动漫",
+                "src" : "http://moe.hao123.com/",
+                "src01" : "http://v.hao123.com/dongman/"
+            },
+            {
+                "word" : "哔哩哔哩",
+                "word01" : "",
+                "src" : "http://www.bilibili.com/",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "苏宁易购",
+                "word01" : "",
+                "src" : "http://www.suning.com/?utm_source=hao123&utm_medium=mingzhan",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "国美在线",
+                "word01" : "",
+                "src" : "http://www.gome.com.cn/?cmpid=dh_hao123_mz",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "购物大全",
+                "word01" : "",
+                "src" : "http://gouwu.hao123.com/?tn=mz",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "1 号 店",
+                "word01" : "",
+                "src" : "http://www.yhd.com/?tracker_u=10861423206",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "爱 淘 宝",
+                "word01" : "",
+                "src" : "http://ai.taobao.com/?pid=mm_43125636_4246598_21868321",
+                "src01" : "javascript:;"
+            },
+            {
+                "word" : "海淘",
+                "word01" : "手机",
+                "src" : "http://shouji.hao123.com/?tn=mz",
+                "src01" : "javascript:;"
+            }
+        ],
+        "guesslikelink01" : [
+            {
+                "word" : "变异传奇",
+                "src" : "http://bdtg.9377a.com/sousuotg.php?id=8708"
+            },
+            {
+                "word" : "机械女神",
+                "src" : "http://x.joypush.cn/p/sgs.html?p=7036&token="
+            },
+            {
+                "word" : "亚马逊女巫",
+                "src" : "http://x.joypush.cn/p/sgs.html?p=7045&token="
+            },
+            {
+                "word" : "沉重的刺客",
+                "src" : "http://x.joypush.cn/p/sgs.html?p=7047&token="
+            },
+            {
+                "word" : "2016新传奇",
+                "src" : "http://news.si9377.com/8674/"
+            },
+            {
+                "word" : "一刀爆橙装",
+                "src" : "http://bdtg.9377a.com/sousuotg.php?id=8858"
+            },
+            {
+                "word" : "萝莉射手",
+                "src" : "http://x.joypush.cn/p/sgs.html?p=7038&token="
+            }
+        ],
+        "guesslikelink02" : [
+            {
+                "word" : "火热加盟中",
+                "src" : "http://www.28.com/paihang/?sourceid=320946&JJID=V57514bbae869b206687294&idzt=18&mediaid=5&comeID=320946"
+            },
+            {
+                "word" : "股市散户群",
+                "src" : "http://www.16889999.com/html/goldHunters129.html?qqid=1"
+            },
+            {
+                "word" : "二手车买卖",
+                "src" : "https://www.renrenche.com/?fr=hao123&fr_word&utm_campaign=daohang&utm_source=hao126&utm_medium=xihuan&utm_term=PC-猜你喜欢-二手车买卖"
+            },
+            {
+                "word" : "北京新楼盘",
+                "src" : "http://www.comjia.com/project/s?channel_id=132&channel_put=生活%7C北京新楼盘%20-%20列表%7C北京新楼盘"
+            },
+            {
+                "word" : "安全的p2p",
+                "src" : "http://www.rrjc.com/marketing/landingpage/20160509/01?sem-baidu-h123-pcp2p-aqdp2p"
+            },
+            {
+                "word" : "汽修加盟店",
+                "src" : "http://www.78.cn/qichex/?sourceid=1388&JJID=V577212d33b81d140820326&mediaid=5&idzt=1229"
+            },
+            {
+                "word" : "奥迪二手车",
+                "src" : "https://www.renrenche.com/aodi?fr=hao123&fr_word&utm_campaign=daohang&utm_source=hao136&utm_medium=xihuan&utm_term=PC-猜你喜欢-奥迪二手车"
+            }
+        ],
+        "guesslikelink03" : [
+            {
+                "word" : "零食二送一",
+                "src" : "http://www.km1818.com/kmznq.html?ozs=30794-2437"
+            },
+            {
+                "word" : "底价狂欢",
+                "src" : "http://www.km1818.com/cheap.html?ozs=30791-2437"
+            },
+            {
+                "word" : "苏宁大清仓",
+                "src" : "http://www.suning.com/?utm_source=hao123&utm_medium=jingjia&utm_campaign=949749&utm_content=0"
+            },
+            {
+                "word" : "苏宁大聚惠",
+                "src" : "http://ju.suning.com/?utm_source=hao123&utm_medium=jingjia&utm_campaign=949749&utm_content=0"
+            },
+            {
+                "word" : "今日清仓",
+                "src" : "http://www.huipinzhe.com/?hmsr=DJX&hmpl=A&hmcu=A&hmkw=43&hmci="
+            },
+            {
+                "word" : "九块九包邮",
+                "src" : "http://www.huipinzhe.com/?hmsr=DJX&hmpl=A&hmcu=A&hmkw=18&hmci="
+            },
+            {
+                "word" : "服装特卖",
+                "src" : "http://fashion.suning.com/?utm_source=hao123&utm_medium=jingjia&utm_campaign=949749&utm_content=0"
+            }
+        ],
+        "data_adbar" : [
+            {
+                "title" : "聚划算",
+                "src" : "https://ju.taobao.com/?ali_trackid=2:mm_43125636_4246598_21864531:1467379137_251_1725115975"
+            },
+            {
+                "title" : "传奇霸业",
+                "src" : "http://g.pp2o.com/s/1/2057/49450.html?uid=720356"
+            },
+            {
+                "title" : "传奇1.85",
+                "src" : "http://g.pp2o.com/s/1/2057/49450.html?uid=720360"
+            },
+            {
+                "title" : "爱淘宝",
+                "src" : "http://ai.taobao.com/?pid=mm_43125636_4246598_22138442"
+            },
+            {
+                "title" : "理财赚钱",
+                "src" : "http://8.hao123.com/"
+            },
+            {
+                "title" : "景点门票",
+                "src" : "http://go.hao123.com/ticket?tn=ybwzl"
+            },
+            {
+                "title" : "洗护特价",
+                "src" : "http://tejia.hao123.com/?tn=zjl"
+            },
+            {
+                "title" : "女装满减",
+                "src" : "http://gouwu.hao123.com/?tn=zjl"
+            },
+            {
+                "title" : "特价酒店",
+                "src" : "http://go.hao123.com/hotel"
+            },
+            {
+                "title" : "电影票团购",
+                "src" : "https://www.nuomi.com/movie/?cid=hao123&tid=pc_dianying_hao123"
+            }
+        ]
+    }
+}

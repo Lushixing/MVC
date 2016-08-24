@@ -1,0 +1,85 @@
+{
+    "errno" : 0,
+    "data" : [
+        {
+            "key" : "电视剧",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "综艺",
+            "src_one" : "http://v.hao123.com/dianshi/",
+            "key_own" : "天气",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "游戏",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "小游戏",
+            "src_one" : "http://v.hao123.com/dianshi/",
+            "key_own" : "星座",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "电影",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "直播",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "网盘",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "动画",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "动漫",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "快递",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "头条",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "军事",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "违章",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "旅游",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "音乐",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "万年历",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "彩票",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "股票",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "地图",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "搞笑",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "小说",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "邮箱",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "特价",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "手机",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "火车票",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        },
+        {
+            "key" : "教育",
+            "src" : "http://v.hao123.com/dianshi/",
+            "key_one" : "理财",
+            "src_one" : "http://v.hao123.com/dianshi/",
+             "key_own" : "更多",
+            "src_own" : "http://v.hao123.com/dianshi/"
+        }
+    ]
+}
